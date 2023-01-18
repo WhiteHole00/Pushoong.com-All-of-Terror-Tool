@@ -1,10 +1,11 @@
 import threading
 import requests
 import asyncio
+
 async def isView(target,cnt):
 
     cnt = int(cnt)
-    if isRunViewBot(target) == True:
+    if isCheck(target) == True:
         for _ in range(1,cnt+1):
             r = requests.get(f"https://pushoong.com/ask/{target}")
             #print("[SUCCESS] | {}".format(cnt))
@@ -33,7 +34,7 @@ def main():
     if len(id_) != 10 :
         return input("푸슝 아이디는 10 자리 입니다.")
     else:
-        threading.Thread(target=asyncio.run,args=(isRunViewBot(id_,cnt),)).start()
+        threading.Thread(target=asyncio.run,args=(isView(id_,cnt),)).start()
 
 if __name__ == "__main__":
     main()
