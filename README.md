@@ -3,6 +3,7 @@
 
 
 # 기능
+- ACCOUNT GEN - 푸슝 계정 생성
 - ASK SPAMMER - 에스크 도배기
 - ASK VIEWBOT - 푸슝 에스크에 있는 조회수 뷰봇
 - ASK PARSER - 에스크 프로필 파서 (이름,설명,조회수,질문수,답변완료수)
