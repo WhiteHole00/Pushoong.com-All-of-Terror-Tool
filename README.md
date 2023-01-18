@@ -1,6 +1,10 @@
 # Pushoong.com-All-of-Terror-Tool
 에스크 도배, 에스크 파싱, 에스크 뷰봇 , 개발자 문의 페이지 도배, 계정 생성 등등
 
+# 실행법
+- 폴더 안에 들어가서 해도 되고
+- 각 폴더 이름을 붙이거나 _ 를 넣으시고 python ./폴더명/파일명.py 형식으로 실행 시켜주셔도 됩니다.
+- ex) Pushoong > cmd > python ./ASKED_PARSER/~~.py
 
 # 기능
 - ACCOUNT GEN - 푸슝 계정 생성
