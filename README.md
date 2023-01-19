@@ -12,6 +12,7 @@
 - ASK VIEWBOT - 푸슝 에스크에 있는 조회수 뷰봇
 - ASK PARSER - 에스크 프로필 파서 (이름,설명,조회수,질문수,답변완료수)
 - COMMENT SPAMMER - 개발자 문의 페이지 도배기
+- PUSHOONG TEST - 푸슝에 있는 테스트(기능) 게시물 도배
 
 # 니 책임임
 - warning.txt 필독 ㄱ
